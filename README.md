@@ -33,12 +33,12 @@ Based on user input, it'll call the corresponding method to handle that operatio
 
 # Memory Management
 
-## Allocation:
-- The database begins as NULL and program uses realloc() to allocate space for a struct part when a new record is added.
-
 ## Resizing:
 - When deleting a record, database will be resized to store numRecords - 1 elements.
 - When a record is added, database will be resized to store numRecords + 1 elements.
+
+## Allocation:
+- The database begins as NULL and program uses realloc() to allocate space for a struct part when a new record is added.
 
 ## Deallocation:
 - Any allocated memory is freed at program exit.
