@@ -19,11 +19,11 @@ Based on user input, it'll call the corresponding method to handle that operatio
 Will assume that option 3, by printing the size of the database, it means printing the size of it in bytes.
 
 ## Methods
-printAllRecords:
 
-# Prints all records currently stored in the database.
-Shows each record’s part number, name, size, metric, and cost.
-If there are no records, a message will notify the user
+# printAllRecords:
+- Prints all records currently stored in the database.
+- Shows each record’s part number, name, size, metric, and cost.
+- If there are no records, a message will notify the user
 
 # addRecord:
 Dynamically increases the size of the database by one record using realloc()
